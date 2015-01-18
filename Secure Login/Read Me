@@ -1,0 +1,19 @@
+Secure Login
+-------------------
+
+To compile:
+change directory to the source folder and type make. An object file ‘seclogin’ should create. Execute this object file to run the program.
+
+Steps and Options:
+
+1) You have to provide a username that you want to login with. The files related to this user will be named after this username.
+
+2) If you are logging in for the first time, you will be asked for registration. Type ‘1’ to get registered.
+
+3) Enter your password you want to get registered with. (Please use ‘passw0rd’ as password). 
+
+4) Next time onwards, you have 2 options, normal mode and test mode. In normal mode, you have to type in 15 feature values separated with space. in test mode, you can provide the name of a test file in which you can put as many feature vectors as you want. The test file should be in the same folder as the code or you should give the complete path for the file. Please see the sample test file provided to check the required format.
+
+5) You have an option to run the program in debug mode. In this mode, the intermediate results will be printed on the screen and can be used to allow verification of correct implementation. Otherwise, you can enter ‘0’ just to see the final output.
+
+Note: Test mode and debug mode have been provided just to evaluation and grading purpose. This should be removed in actual implementations.
